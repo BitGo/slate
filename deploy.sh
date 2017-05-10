@@ -17,7 +17,7 @@ Options:
                            commit's message.
 "
 
-bundle exec middleman build --clean
+bundle exec /usr/local/rvm/gems/ruby-2.4.0/bin/middleman build --clean
 
 parse_args() {
   # Set args from a local environment file.
